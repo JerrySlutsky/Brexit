@@ -12,3 +12,5 @@ summ <- brexit %>%
 # Stacked barplot with multiple groups
 ggplot(data=summ, aes(x=summ$date, y=summ$response, fill=summ$decision)) +
   geom_bar(stat="identity", position = "stack")
+
+![Brexit figure](https://user-images.githubusercontent.com/48695787/56917559-ca621480-6a89-11e9-8db4-b89d69a4e88c.png)
